@@ -15,19 +15,22 @@ body {
     border-radius: 35px;
 }
 .main-header {
-/*    background: #1a1a1a;*/
     background: url('http://judehudson.com/dc/images/background1.jpg');
     background-size: cover;
     text-align: center;
     color: #fff;
-    height: 100px;
+    height: 120px;
     width: 100%;
     margin:0 auto;
 }
 
 .header-text {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.subheader-text {
+    color: #d6d6d6;
 }
 
 .row {
@@ -60,6 +63,20 @@ body {
     margin: 10px 10px;
     padding: 5px;
     display: inline-block;
+}
+
+.bluebox {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    margin: 10px 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.white-text {
+    color: #fff;
 }
 
 .main-footer {
